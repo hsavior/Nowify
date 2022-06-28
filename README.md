@@ -55,7 +55,9 @@ Call the application 'Nowify'.
 
 Set the 'Redirect URI' as the URL of your project in Netlify. This must be set else Spotify won't authorise Nowify.
 
-You can leave the other settings (Callback URL, Bundle IDs etc) blank.
+Set the 'Callback' as http://localhost:8888/callback 
+
+You can leave the other settings (Bundle IDs etc) blank.
 
 Copy down the Client Secret and Client ID and save your app in the Spotify Dashboard.
 
